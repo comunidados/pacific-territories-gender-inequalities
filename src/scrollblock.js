@@ -5,7 +5,7 @@ import { Scrollama, Step } from "react-scrollama";
 
 const styles = {
   main: {
-    padding: "70vh 2vw",
+    padding: "30vh 2vw",
     display: "flex",
     fontFamily: "Helvetica",
     justifyContent: "space-between"
@@ -40,6 +40,10 @@ const styles = {
     "&:last-child": {
       marginBottom: 0
     }
+  },
+  chart1: {
+    width: "100%",
+    height: "600px"
   }
 };
 
@@ -69,7 +73,7 @@ class Graphic extends PureComponent {
             onStepEnter={this.onStepEnter}
             onStepExit={this.onStepExit}
             offset={0.33}
-            //debug
+          //debug
           >
             <Step data={1}>
               <div className={classes.step}>
@@ -88,19 +92,17 @@ class Graphic extends PureComponent {
 
         <div className={classes.graphic}>
           <Scrollama
-            offset={0.1}
-            //debug
+          //debug
           >
             <Step data={1}>
-              <div className={classes.step}>Chart 1</div>
-            </Step>
-            <Step data={2}>
-              <div className={classes.step}>Chart 2</div>
+              <div>
+                <iframe src='https://flo.uri.sh/visualisation/18202623/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameBorder='0' scrolling='no' className={classes.chart1} sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+              </div>
             </Step>
           </Scrollama>
         </div>
 
-      </div>
+      </div >
     );
   }
 }
