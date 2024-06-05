@@ -79,9 +79,10 @@ class Graphic extends PureComponent {
               <div className={classes.step}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="792"
-                  height="792"
+                  width="500"
+                  height="500"
                   viewBox="0 0 612 792"
+                  
                 >
                   <defs>
                     <linearGradient id="XMLID_13_">
@@ -106,7 +107,6 @@ class Graphic extends PureComponent {
                   <path id="XMLID_8_" class="st1" d="M393.4,312l-8.2-17.6c-40.1-3.2-63.9,63.6-50.9,76.6c13,13,79.8-10.7,76.6-50.9 C411,320.2,393.4,312,393.4,312z"/>  
                   <text id="XMLID_5_" transform="matrix(1 0 0 1 361.722 340.0294)" class="st3 st4">980</text>
                   </g>
-
 
                 </svg>
               </div>
