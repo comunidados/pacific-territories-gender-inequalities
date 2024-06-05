@@ -111,7 +111,7 @@ svg {
 }
 .terr_none{
   fill: none;
-  stroke: #232222;
+  stroke: #494747;
   stroke-width: 0.25;
   stroke-linecap: square;
   stroke-linejoin: bevel;
@@ -119,7 +119,14 @@ svg {
 .base{
   fill: rgba(255, 255, 255, 0);
   stroke: #6b6969;
-  stroke-width: 0.15;
+  stroke-width: 0.12;
+  stroke-linecap: square;
+  stroke-linejoin: bevel;
+}
+.baseterr{
+  fill: rgba(0, 0, 0, 0.5);
+  stroke: #6b6969;
+  stroke-width: 0;
   stroke-linecap: square;
   stroke-linejoin: bevel;
 }
