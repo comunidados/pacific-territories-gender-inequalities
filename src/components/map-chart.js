@@ -6,14 +6,14 @@ const BasemapChart = () => {
 	{
 
 		return (
-			<div>
+			<div style={{}}>
 
 				{/* line 1 */}
-				<div className="" style={{ width: "100%", maxHeight: "500px", display: "flex", justifyContent: "center", paddingTop: "50px" }}>
+				<div className="mapchartline" style={{ maxWidth: "100%", maxHeight: "500px", display: "flex", justifyContent: "center", paddingTop: "50px" }}>
 
 					{/* block 1 */}
 					<div class="maphidT">
-						<div className="" style={{ textAlign: "center", color: "#494747 !important" }}>VANAUTU</div>
+						<div className="mapchartlinetitle" style={{ textAlign: "center", color: "#494747 !important" }}>VANAUTU</div>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="300"
@@ -44,7 +44,7 @@ const BasemapChart = () => {
 
 					{/* block 2 */}
 					<div class="maphidT">
-						<div className="" style={{ textAlign: "center", color: "#494747 !important" }}>KIRIBATI</div>
+						<div className="mapchartlinetitle" style={{ textAlign: "center", color: "#494747 !important" }}>KIRIBATI</div>
 						<div className=""><svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="300"
@@ -74,7 +74,7 @@ const BasemapChart = () => {
 
 					{/* block 3 */}
 					<div class="nauruchart maphidT">
-						<div className="" style={{ textAlign: "center", color: "#494747 !important" }}>MARSHALL ISLANDS</div>
+						<div className="mapchartlinetitle" style={{ textAlign: "center", color: "#494747 !important" }}>MARSHALL ISLANDS</div>
 						<div className=""><svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="300"
@@ -104,7 +104,7 @@ const BasemapChart = () => {
 
 
 					<div class="vanautuchart maphidT">
-						<div className="" style={{ textAlign: "center", color: "#494747 !important" }}>NAURU</div>
+						<div className="mapchartlinetitle" style={{ textAlign: "center", color: "#494747 !important" }}>NAURU</div>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="300"
@@ -141,11 +141,11 @@ const BasemapChart = () => {
 
 
 				{/* line 2 */}
-				<div className="" style={{ width: "100%", maxHeight: "500px", display: "flex", justifyContent: "center", paddingTop: "50px" }}>
+				<div className="mapchartline" style={{ maxWidth: "100%", maxHeight: "500px", display: "flex", justifyContent: "center", paddingTop: "50px" }}>
 
 					{/* block 5 */}
 					<div class="vanautuchart maphidT">
-						<div className="" style={{ textAlign: "center", color: "#494747 !important" }}>PALAU</div>
+						<div className="mapchartlinetitle" style={{ textAlign: "center", color: "#494747 !important" }}>PALAU</div>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="300"
@@ -176,7 +176,7 @@ const BasemapChart = () => {
 
 					{/* block 6 */}
 					<div class="nauruchart maphidT">
-						<div className="" style={{ textAlign: "center", color: "#494747 !important" }}>TONGA</div>
+						<div className="mapchartlinetitle" style={{ textAlign: "center", color: "#494747 !important" }}>TONGA</div>
 						<div className=""><svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="300"
@@ -206,7 +206,7 @@ const BasemapChart = () => {
 
 					{/* block 7 */}
 					<div class="vanautuchart maphidT">
-						<div className="" style={{ textAlign: "center", color: "#494747 !important" }}>TUVALU</div>
+						<div className="mapchartlinetitle" style={{ textAlign: "center", color: "#494747 !important" }}>TUVALU</div>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="300"
@@ -238,7 +238,7 @@ const BasemapChart = () => {
 
 
 
-				<div className="header" style={{ width: "100vw", display: "flex", justifyContent: "center", paddingTop: "5px" }}>
+				<div className="header" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
 					<div className="title" style={{ width: "30vw", padding: "20px" }}>
 						<p style={{ fontFamily: "Karla", fontWeight: "bold" }}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p>
 						<hr></hr>
@@ -250,7 +250,7 @@ const BasemapChart = () => {
 					</div>
 				</div>
 
-				<div className="header" style={{ width: "100vw", display: "flex", justifyContent: "center", paddingTop: "5px" }}>
+				<div className="header" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
 					<div className="title" style={{ width: "70vw", padding: "50px", paddingTop: "80px" }}>
 						<h4>Qui ci potrebbe essere la narrativa, con corpo centrale come fosse un articolo. Esempio: However, the overall stagnation in the representation of female graduate students in science and engineering shrouds a more complicated picture underneath.</h4>
 						<h4>Some fields have seen a large increase in the representation of female graduate students. From 2003 to 2016, mathematics and statistics quickly reached and maintained sex parity.</h4>

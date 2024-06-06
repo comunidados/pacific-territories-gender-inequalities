@@ -6,8 +6,8 @@ const Basemap = () => {
 	{
 
 		return (
-			<div>
-				<div className="" style={{ width: "100%", maxHeight: "500px", display: "flex", justifyContent: "center", paddingTop: "50px" }}>
+			<div style={{}}>
+				<div className="" style={{ maxWidth: "100%", maxHeight: "500px", display: "flex", justifyContent: "center", paddingTop: "50px" }}>
 					<svg
 						className="map"
 						xmlns="http://www.w3.org/2000/svg"
@@ -16884,19 +16884,18 @@ const Basemap = () => {
 					</svg>
 				</div>
 
-				<div className="header" style={{ width: "100vw", display: "flex", justifyContent: "center", paddingTop: "5px" }}>
+				<div className="header" style={{display: "flex", justifyContent: "center", paddingTop: "5px" }}>
 
 					<div className="title" style={{ width: "30vw", padding: "20px" }}>
-						<p style={{fontFamily:"Karla", fontWeight:"bold"}}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p> 
+						<p style={{ fontFamily: "Karla", fontWeight: "bold" }}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p>
 						<hr></hr>
 						<p>Fonte dei dati e dettagli tipo ESPG della mappa, EPSG:8859, WGS 84 / Equal Earth Asia-Pacific</p>
 					</div>
-					<div className="statement" style={{ width: "30vw", padding: "20px", paddingLeft:"50px" }}>
+					<div className="statement" style={{ width: "30vw", padding: "20px", paddingLeft: "50px" }}>
 						<p>NOTE: Se servissero dei commenti potrebbero andare in questo spazio, che riempio casualmente: Gender inequalities in education increase child marriage, exposition to violence and decrease wages</p>
 					</div>
 
 				</div>
-
 			</div>
 		);
 	}
