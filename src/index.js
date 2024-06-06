@@ -2,15 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { StyledGraphic } from './components/scrollblock';
-import Basemap from './components/map';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Basemap />
-    <StyledGraphic />
+    <App />
   </React.StrictMode>
 );
 

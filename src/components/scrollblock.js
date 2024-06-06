@@ -17,7 +17,7 @@ const styles = {
     padding: "5rem 0",
     top: "160px",
     alignSelf: "flex-start",
-    backgroundColor: "#fff",
+    backgroundColor: "##f0ede6",
     "& p": {
       fontSize: "5rem",
       textAlign: "center",
@@ -25,17 +25,17 @@ const styles = {
     }
   },
   scroller: {
-    flexBasis: "35%"
+    flexBasis: "35%",
   },
   step: {
     margin: "0 auto 2rem auto",
     paddingTop: 200,
     paddingBottom: 200,
-    border: "1px solid #333",
-    "& p": {
+    backgroundColor: "#f0ede6",
+    // border: "1px solid #333",
+    "& h4": {
       textAlign: "center",
       padding: "1rem",
-      fontSize: "1.5rem"
     },
     "&:last-child": {
       marginBottom: 0
@@ -53,12 +53,12 @@ class Graphic extends PureComponent {
   };
 
   onStepEnter = ({ element, data }) => {
-    element.style.backgroundColor = "lightgoldenrodyellow";
+    element.style.backgroundColor = "rgba(189, 73, 154, 0.1)";
     this.setState({ data });
   };
 
   onStepExit = ({ element }) => {
-    element.style.backgroundColor = "#fff";
+    element.style.backgroundColor = "#f0ede6";
   };
 
   render() {
@@ -113,11 +113,11 @@ class Graphic extends PureComponent {
             </Step>
             <Step data={2}>
               <div className={classes.step}>
-                <p>However, the overall stagnation in the representation of female graduate students in science and engineering shrouds a more complicated picture underneath. </p></div>
+                <h4>However, the overall stagnation in the representation of female graduate students in science and engineering shrouds a more complicated picture underneath. </h4></div>
             </Step>
             <Step data={3}>
               <div className={classes.step}>
-                <p>Some fields have seen a large increase in the representation of female graduate students. From 2003 to 2016, mathematics and statistics quickly reached and maintained sex parity. </p></div>
+                <h4>Some fields have seen a large increase in the representation of female graduate students. From 2003 to 2016, mathematics and statistics quickly reached and maintained sex parity. </h4></div>
             </Step>
           </Scrollama>
         </div>

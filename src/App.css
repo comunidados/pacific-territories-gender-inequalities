@@ -2,9 +2,45 @@
   font-family: 'Karla-Italic';
   src: url('./fonts/Karla-Italic-VariableFont_wght.ttf') format('opentype');
 }
+@font-face {
+  font-family: 'Karla';
+  src: url('./fonts/Karla-VariableFont_wght.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Sabon-bold';
+  src: url('./fonts/SabonLTStd-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Sabon';
+  src: url('./fonts/SabonMTStd-Regular.otf') format('opentype');
+}
 
 body {
   background-color: #f0ede6;
+}
+
+h1 {
+  font-family: "Karla", sans;
+  color: #494747;
+  font-size: 2.5em;
+}
+h3 {
+  font-family: "Karla", sans;
+  color: #494747;
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+h4 {
+  font-family: "Karla", sans;
+  color: #494747;
+  font-size: 1.1em;
+  line-height: 1.3;
+}
+p {
+  font-family: "Sabon", sans;
+  color: #6e6d6d;
+  font-size: 0.9em;
+  line-height: 1.2;
 }
 
 .App {
@@ -81,9 +117,15 @@ svg {
 
 .texthid:hover text {
   visibility: visible;
-  font-size: 20px;
+  font-size: 2em;
 }
 
+.year{
+  font-size: 2em;
+}
+
+/* ///////// */
+/* START MAP */
 .maphid text {
   visibility: hidden;
 }
@@ -96,7 +138,6 @@ svg {
   font-weight: bold;
   font-size: 16px;
 }
-
 .terr {
   fill: rgba(255, 255, 255, 0);
   stroke: #232222;
@@ -130,9 +171,49 @@ svg {
   stroke-linecap: square;
   stroke-linejoin: bevel;
 }
+.label {
+  font-family: "Sabon", sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  color: rgb(54, 54, 54);
+  letter-spacing: 3px;
+  opacity: 0.3;
+
+}
+.wave {
+  fill: rgba(206, 203, 203, 0.15);
+}
+.exhigh {
+  fill: rgba(189, 73, 154, 0.6);
+}
 .high {
-  fill: rgba(189, 73, 154, 0.664);
+  fill: rgba(189, 73, 154, 0.5);
+}
+.discr {
+  fill: rgba(189, 73, 154, 0.4);
+}
+.medium {
+  fill: rgba(189, 73, 154, 0.25);
 }
 .low {
-  fill: rgba(189, 73, 154, 0.2);
+  fill: rgba(189, 73, 154, 0.1);
+}
+/* END MAP */
+/* /////// */
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+
+/* START MAP */
+/* ///////// */
+
+/* END MAP */
+/* /////// */
+
 }
