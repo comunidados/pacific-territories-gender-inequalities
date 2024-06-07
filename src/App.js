@@ -24,7 +24,7 @@ function App() {
 
       <Basemap />
       <BasemapChart />
-      {/* <StyledGraphic /> */}
+      <StyledGraphic />
 
     </>
   );
