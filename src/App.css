@@ -14,6 +14,27 @@
   font-family: 'Sabon';
   src: url('./fonts/SabonMTStd-Regular.otf') format('opentype');
 }
+@font-face {
+  font-family: 'FiraMono-Bold';
+  src: url('./fonts/FiraMono-Bold.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'FiraMono-Medium';
+  src: url('./fonts/FiraMono-Medium.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'FiraMono-Regular';
+  src: url('./fonts/FiraMono-Regular.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'WorkSans';
+  src: url('./fonts/WorkSans-VariableFont_wght.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'WorkSans-Italic';
+  src: url('./fonts/WorkSans-Italic-VariableFont_wght.ttf') format('opentype');
+}
+
 
 ::-webkit-scrollbar {
   height: 4px;
@@ -39,27 +60,27 @@ body {
 }
 
 h1 {
-  font-family: "Karla", sans;
+  font-family: "WorkSans", sans;
   color: #494747;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 h3 {
-  font-family: "Karla", sans;
-  color: #494747;
-  font-size: 1.2em;
-  line-height: 1.3;
-}
-h4 {
-  font-family: "Karla", sans;
+  font-family: "WorkSans", sans;
   color: #494747;
   font-size: 1.1em;
   line-height: 1.3;
 }
+h4 {
+  font-family: "WorkSans", sans;
+  color: #494747;
+  font-size: 1.0em;
+  line-height: 1.3;
+}
 p {
-  font-family: "Sabon", sans;
+  font-family: "FiraMono-Regular", sans;
   color: #6e6d6d;
-  font-size: 0.9em;
-  line-height: 1.2;
+  font-size: 0.75em;
+  line-height: 1.3;
 }
 
 .App {
@@ -89,7 +110,7 @@ p {
 }
 
 svg {
-  font-family: "Karla-Italic", serif;
+  font-family: "WorkSans-Italic", serif;
 }
 
 .App-link {
@@ -153,7 +174,7 @@ svg {
   font-size: 14px;
 }
 .maphidT {
-  font-family: "Karla-Italic", serif;
+  font-family: "WorkSans-Italic", serif;
   font-weight: bold;
   font-size: 16px;
 }
@@ -219,6 +240,11 @@ svg {
 }
 /* END MAP */
 /* /////// */
+
+.mapchartlinetitle {
+  font-size: 0.85em;
+  color: #494747;;
+}
 
 
 

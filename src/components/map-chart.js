@@ -240,7 +240,7 @@ const BasemapChart = () => {
 
 				<div className="header" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
 					<div className="title" style={{ width: "30vw", padding: "20px" }}>
-						<p style={{ fontFamily: "Karla", fontWeight: "bold" }}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p>
+						<p style={{ fontFamily: "WorkSans !important", fontWeight: "bold" }}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p>
 						<hr></hr>
 						<p>Fonte dei dati e dettagli tipo ESPG della mappa, EPSG:8859, WGS 84 / Equal Earth Asia-Pacific</p>
 					</div>
