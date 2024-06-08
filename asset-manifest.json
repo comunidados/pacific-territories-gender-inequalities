@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/pacific-territories-gender-inequalities/static/css/main.36c8a770.css",
-    "main.js": "/pacific-territories-gender-inequalities/static/js/main.7eae7ee9.js",
+    "main.css": "/pacific-territories-gender-inequalities/static/css/main.591cf5b6.css",
+    "main.js": "/pacific-territories-gender-inequalities/static/js/main.0de7e610.js",
     "static/js/453.653c3445.chunk.js": "/pacific-territories-gender-inequalities/static/js/453.653c3445.chunk.js",
+    "static/media/WorkSans-VariableFont_wght.ttf": "/pacific-territories-gender-inequalities/static/media/WorkSans-VariableFont_wght.a0297787a1a192213b53.ttf",
+    "static/media/WorkSans-Italic-VariableFont_wght.ttf": "/pacific-territories-gender-inequalities/static/media/WorkSans-Italic-VariableFont_wght.909e4faac8822880e462.ttf",
+    "static/media/FiraMono-Bold.ttf": "/pacific-territories-gender-inequalities/static/media/FiraMono-Bold.0c50cfced9c27d6635e9.ttf",
+    "static/media/FiraMono-Regular.ttf": "/pacific-territories-gender-inequalities/static/media/FiraMono-Regular.7534a76c5a021a6aae2f.ttf",
+    "static/media/FiraMono-Medium.ttf": "/pacific-territories-gender-inequalities/static/media/FiraMono-Medium.1f590c63ad85427d3c70.ttf",
     "static/media/Karla-VariableFont_wght.ttf": "/pacific-territories-gender-inequalities/static/media/Karla-VariableFont_wght.d9146c4b04a4542a6236.ttf",
     "static/media/Karla-Italic-VariableFont_wght.ttf": "/pacific-territories-gender-inequalities/static/media/Karla-Italic-VariableFont_wght.101d8df0fd3d3802756e.ttf",
     "static/media/SabonMTStd-Regular.otf": "/pacific-territories-gender-inequalities/static/media/SabonMTStd-Regular.d44e4b414851c27f80e0.otf",
     "static/media/SabonLTStd-Bold.otf": "/pacific-territories-gender-inequalities/static/media/SabonLTStd-Bold.4290171f973a4d72ccaf.otf",
     "static/media/logo.svg": "/pacific-territories-gender-inequalities/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/pacific-territories-gender-inequalities/index.html",
-    "main.36c8a770.css.map": "/pacific-territories-gender-inequalities/static/css/main.36c8a770.css.map",
-    "main.7eae7ee9.js.map": "/pacific-territories-gender-inequalities/static/js/main.7eae7ee9.js.map",
+    "main.591cf5b6.css.map": "/pacific-territories-gender-inequalities/static/css/main.591cf5b6.css.map",
+    "main.0de7e610.js.map": "/pacific-territories-gender-inequalities/static/js/main.0de7e610.js.map",
     "453.653c3445.chunk.js.map": "/pacific-territories-gender-inequalities/static/js/453.653c3445.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36c8a770.css",
-    "static/js/main.7eae7ee9.js"
+    "static/css/main.591cf5b6.css",
+    "static/js/main.0de7e610.js"
   ]
 }
