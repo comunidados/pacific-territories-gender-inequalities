@@ -172,9 +172,10 @@ svg {
 .maphid:hover text {
   visibility: visible;
   font-size: 14px;
+  color: #6e6d6d;
 }
 .maphidT {
-  font-family: "WorkSans-Italic", serif;
+  font-family: "WorkSans", serif;
   font-weight: bold;
   font-size: 16px;
 }
@@ -246,6 +247,24 @@ svg {
   color: #494747;;
 }
 
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+}
 
 
 

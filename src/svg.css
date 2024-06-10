@@ -1,0 +1,66 @@
+.grad {
+    fill: none;
+    stroke: #dfdfdf;
+    stroke-miterlimit: 10;
+}
+
+.tot {
+    fill: rgba(255, 255, 255, 0);
+    stroke: #494747;
+    stroke-miterlimit: 10;
+}
+
+.tot:hover {
+    fill-opacity: 0.3;
+    stroke-width: 3px;
+}
+
+.textpop text {
+    visibility: hidden;
+}
+
+.textpop:hover text {
+    visibility: visible;
+}
+
+.num {
+    font-family: 'FiraMono-Bold';
+    font-size: 15px;
+}
+
+.tex {
+    font-family: 'WorkSans';
+    font-size: 16px;
+}
+
+.yea {
+    color: #6e6d6d;
+    font-family: 'FiraMono-Bold';
+    font-size: 13px;
+}
+
+.wom {
+    fill: #7F3F98;
+    stroke: #494747;
+    stroke-width: 1px;
+    stroke-miterlimit: 10;
+}
+
+.wom:hover {
+    fill-opacity: 0.3;
+    stroke-width: 3px;
+}
+
+.nodata {
+    fill: rgba(255, 255, 255, 0);
+    stroke: #aca7a7;
+    stroke-miterlimit: 10;
+}
+
+.womedu {
+    fill: #CE76C8;
+}
+
+.maledu {
+    fill: rgb(68, 151, 199);
+}

@@ -3,6 +3,7 @@ import './App.css';
 import { StyledGraphic } from './components/scrollblock';
 import Basemap from './components/map';
 import BasemapChart from './components/map-chart';
+import AlertDialog from './components/modal';
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
 
       <Basemap />
       <BasemapChart />
-      <StyledGraphic />
+      <AlertDialog />
+      {/* <StyledGraphic /> */}
 
     </>
   );
