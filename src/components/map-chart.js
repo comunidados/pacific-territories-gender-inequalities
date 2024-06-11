@@ -23,7 +23,7 @@ const BasemapChart = () => {
 				{/* POPULATION MACRO */}
 				<div className="header" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
 
-					<div class="maphidT" style={{ border: "1px solid #6e6d6d" }}>
+					<div style={{ border: "1px solid #6e6d6d" }}>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="450"
@@ -123,7 +123,7 @@ const BasemapChart = () => {
 					</div>
 
 					{/* EDUCATION */}
-					<div class="maphidT" style={{ border: "1px solid #6e6d6d" }}>
+					<div style={{ border: "1px solid #6e6d6d" }}>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="450"
@@ -176,17 +176,17 @@ const BasemapChart = () => {
 								<text transform="matrix(1 0 0 1 30.4639 167.4209)"><tspan x="0" y="0" class="num">6.0 %</tspan><tspan x="0" y="14.4" class="tex">Female attained Upper </tspan><tspan x="0" y="28.8" class="tex">secondary education</tspan></text>
 								<text transform="matrix(1 0 0 1 30.4639 215.8897)"><tspan x="0" y="0" class="num">5.3 %</tspan><tspan x="0" y="14.4" class="tex">Male attained Upper </tspan><tspan x="0" y="28.8" class="tex">secondary education</tspan></text>
 							</g>
-							<path class="womedu" d="M-0.5,491.4c0.7-0.5,1.3-1.3,2.2-1.7c2.2-1,4.8,0,5.9-1.3c1.1-1.3-9.7-21.6-9.7-21.6l0,0l0,21.4
+							<path class="womedu no-pointer" d="M-0.5,491.4c0.7-0.5,1.3-1.3,2.2-1.7c2.2-1,4.8,0,5.9-1.3c1.1-1.3-9.7-21.6-9.7-21.6l0,0l0,21.4
 	C-2.1,490.4-1.2,492-0.5,491.4L-0.5,491.4z"/>
-							<path class="maledu" d="M-32.3,491.4c-0.7-0.5-1.3-1.3-2.2-1.7c-2.2-1-4.8,0-5.9-1.3c-1.1-1.3,9.7-21.6,9.7-21.6v0v21.4
+							<path class="maledu no-pointer" d="M-32.3,491.4c-0.7-0.5-1.3-1.3-2.2-1.7c-2.2-1-4.8,0-5.9-1.3c-1.1-1.3,9.7-21.6,9.7-21.6v0v21.4
 	C-30.7,490.4-31.6,492-32.3,491.4L-32.3,491.4z"/>
-							<path class="st2" d="M-22.2,359.8c-0.2,0.1-0.3,0.3-0.5,0.4c-0.5,0.2-1.2,0-1.5,0.3c-0.3,0.3,2.4,5.4,2.4,5.4l0,0l0-5.3
+							<path class="womedu no-pointer" d="M-22.2,359.8c-0.2,0.1-0.3,0.3-0.5,0.4c-0.5,0.2-1.2,0-1.5,0.3c-0.3,0.3,2.4,5.4,2.4,5.4l0,0l0-5.3
 	C-21.8,360-22,359.6-22.2,359.8L-22.2,359.8z"/>
-							<path class="maledu" d="M-11.1,359.8c0.2,0.1,0.3,0.3,0.5,0.4c0.5,0.2,1.2,0,1.5,0.3c0.3,0.3-2.4,5.4-2.4,5.4v0v-5.3
+							<path class="maledu no-pointer" d="M-11.1,359.8c0.2,0.1,0.3,0.3,0.5,0.4c0.5,0.2,1.2,0,1.5,0.3c0.3,0.3-2.4,5.4-2.4,5.4v0v-5.3
 	C-11.5,360-11.3,359.6-11.1,359.8L-11.1,359.8z"/>
-							<path class="maledu" d="M-54,398.1c0.1-0.5,0.3-0.9,0.2-1.4c-0.1-1.2-1.3-2.2-0.9-3c0.3-0.8,12.4-1.3,12.4-1.3l0,0l-9.7,5.6
+							<path class="maledu no-pointer" d="M-54,398.1c0.1-0.5,0.3-0.9,0.2-1.4c-0.1-1.2-1.3-2.2-0.9-3c0.3-0.8,12.4-1.3,12.4-1.3l0,0l-9.7,5.6
 	C-53.1,398.6-54.1,398.6-54,398.1L-54,398.1z"/>
-							<path class="womedu" d="M-48.9,408.4c0.5,0.2,1.1,0.3,1.7,0.7c1.3,0.9,1.6,2.7,2.7,2.9c1.1,0.2,9-12.5,9-12.5l0,0l-12,6.9
+							<path class="womedu no-pointer" d="M-48.9,408.4c0.5,0.2,1.1,0.3,1.7,0.7c1.3,0.9,1.6,2.7,2.7,2.9c1.1,0.2,9-12.5,9-12.5l0,0l-12,6.9
 	C-48.9,407.2-49.5,408.2-48.9,408.4L-48.9,408.4z"/>
 
 

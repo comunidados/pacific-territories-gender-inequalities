@@ -308,4 +308,10 @@ svg {
   font-size: 0.75em;
 }
 
+.modal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 }

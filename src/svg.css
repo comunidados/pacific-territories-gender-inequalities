@@ -60,7 +60,19 @@
 .womedu {
     fill: #CE76C8;
 }
+.womedu:hover {
+    stroke: #494747;
+    stroke-width: 3px;
+}
 
 .maledu {
     fill: rgb(68, 151, 199);
+}
+.maledu:hover {
+    stroke: #494747;
+    stroke-width: 3px;
+}
+
+.no-pointer {
+    pointer-events: none;
 }
