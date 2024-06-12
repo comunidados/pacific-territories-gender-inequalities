@@ -94,6 +94,7 @@ export default function AlertDialog() {
             <React.Fragment>
                 <Button
                     onClick={handleClickOpen1}
+                    className='buttonmodal'
                     style={{ border: "1px solid #000000", fontFamily: "WorkSans", color: "#494747" }}
                 >
                     KIRIBATI
@@ -110,7 +111,8 @@ export default function AlertDialog() {
                             maxHeight: "80%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
-                            border: "1px solid #6e6d6d"
+                            border: "1px solid #6e6d6d",
+                            margin:"10px"
                         },
                     }}
                 >
@@ -133,6 +135,7 @@ export default function AlertDialog() {
             <React.Fragment>
                 <Button
                     onClick={handleClickOpen2}
+                    className='buttonmodal'
                     style={{ border: "1px solid #000000", fontFamily: "WorkSans", color: "#494747" }}
                 >
                     MARSHALL ISLANDS
@@ -149,7 +152,8 @@ export default function AlertDialog() {
                             maxHeight: "80%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
-                            border: "1px solid #6e6d6d"
+                            border: "1px solid #6e6d6d",
+                            margin:"10px"
                         },
                     }}
                 >
@@ -170,6 +174,7 @@ export default function AlertDialog() {
             <React.Fragment>
                 <Button
                     onClick={handleClickOpen3}
+                    className='buttonmodal'
                     style={{ border: "1px solid #000000", fontFamily: "WorkSans", color: "#494747" }}
                 >
                     NAURU
@@ -186,7 +191,8 @@ export default function AlertDialog() {
                             maxHeight: "80%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
-                            border: "1px solid #6e6d6d"
+                            border: "1px solid #6e6d6d",
+                            margin:"10px"
                         },
                     }}
                 >
@@ -207,6 +213,7 @@ export default function AlertDialog() {
             <React.Fragment>
                 <Button
                     onClick={handleClickOpen4}
+                    className='buttonmodal'
                     style={{ border: "1px solid #000000", fontFamily: "WorkSans", color: "#494747" }}
                 >
                     PALAU
@@ -223,7 +230,8 @@ export default function AlertDialog() {
                             maxHeight: "80%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
-                            border: "1px solid #6e6d6d"
+                            border: "1px solid #6e6d6d",
+                            margin:"10px"
                         },
                     }}
                 >
@@ -244,6 +252,7 @@ export default function AlertDialog() {
             <React.Fragment>
                 <Button
                     onClick={handleClickOpen5}
+                    className='buttonmodal'
                     style={{ border: "1px solid #000000", fontFamily: "WorkSans", color: "#494747" }}
                 >
                     TONGA
@@ -260,7 +269,8 @@ export default function AlertDialog() {
                             maxHeight: "80%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
-                            border: "1px solid #6e6d6d"
+                            border: "1px solid #6e6d6d",
+                            margin:"10px"
                         },
                     }}
                 >
@@ -282,6 +292,7 @@ export default function AlertDialog() {
             <React.Fragment>
                 <Button
                     onClick={handleClickOpen6}
+                    className='buttonmodal'
                     style={{ border: "1px solid #000000", fontFamily: "WorkSans", color: "#494747" }}
                 >
                     TUVALU
@@ -298,7 +309,8 @@ export default function AlertDialog() {
                             maxHeight: "80%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
-                            border: "1px solid #6e6d6d"
+                            border: "1px solid #6e6d6d",
+                            margin:"10px"
                         },
                     }}
                 >
@@ -320,6 +332,7 @@ export default function AlertDialog() {
             <React.Fragment>
                 <Button
                     onClick={handleClickOpen7}
+                    className='buttonmodal'
                     style={{ border: "1px solid #000000", fontFamily: "WorkSans", color: "#494747" }}
                 >
                     VANUATU
@@ -336,7 +349,8 @@ export default function AlertDialog() {
                             maxHeight: "80%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
-                            border: "1px solid #6e6d6d"
+                            border: "1px solid #6e6d6d",
+                            margin:"10px"
                         },
                     }}
                 >
