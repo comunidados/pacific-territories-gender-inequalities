@@ -88,7 +88,7 @@ export default function AlertDialog() {
     return (
 
         <><div className="header" style={{ display: "flex", justifyContent: "center", padding: "15px", alignItems: "center" }}>
-            <div style={{ fontFamily: "WorkSans", fontSize: "14px", color: "#494747" }}>VAI AL DETTAGLIO&nbsp;&nbsp;</div>
+            <div style={{ fontFamily: "WorkSans", fontSize: "14px", color: "#494747" }}>SEE DETAILS FOR INDIVIDUAL COUNTRIES &nbsp;&nbsp;</div>
 
 
             <React.Fragment>
@@ -108,7 +108,7 @@ export default function AlertDialog() {
                             width: "100%",
                             maxWidth: "100%",
                             height: "100%",
-                            maxHeight: "80%",
+                            maxHeight: "90%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
@@ -149,7 +149,7 @@ export default function AlertDialog() {
                             width: "100%",
                             maxWidth: "100%",
                             height: "100%",
-                            maxHeight: "80%",
+                            maxHeight: "90%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
@@ -188,7 +188,7 @@ export default function AlertDialog() {
                             width: "100%",
                             maxWidth: "100%",
                             height: "100%",
-                            maxHeight: "80%",
+                            maxHeight: "90%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
@@ -227,7 +227,7 @@ export default function AlertDialog() {
                             width: "100%",
                             maxWidth: "100%",
                             height: "100%",
-                            maxHeight: "80%",
+                            maxHeight: "90%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
@@ -266,7 +266,7 @@ export default function AlertDialog() {
                             width: "100%",
                             maxWidth: "100%",
                             height: "100%",
-                            maxHeight: "80%",
+                            maxHeight: "90%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
@@ -306,7 +306,7 @@ export default function AlertDialog() {
                             width: "100%",
                             maxWidth: "100%",
                             height: "100%",
-                            maxHeight: "80%",
+                            maxHeight: "90%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
@@ -346,7 +346,7 @@ export default function AlertDialog() {
                             width: "100%",
                             maxWidth: "100%",
                             height: "100%",
-                            maxHeight: "80%",
+                            maxHeight: "90%",
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",

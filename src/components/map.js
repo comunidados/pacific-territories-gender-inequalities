@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import injectSheet from "react-jss";
+import { Link } from '@mui/material';
 
 
 const Basemap = () => {
@@ -16884,15 +16885,16 @@ const Basemap = () => {
 					</svg>
 				</div>
 
-				<div className="header" style={{display: "flex", justifyContent: "center", paddingTop: "5px" }}>
+				<div className="header" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
 
 					<div className="title" style={{ width: "30vw", padding: "20px" }}>
-						<p style={{ fontWeight: "bold" }}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p>
+						<p style={{ fontWeight: "bold" }}>POPULATION BY 2021, KIRIBATI, MARSHALL ISLANDS, NAURU, PALAU, TONGA, TUVALU AND VANUATU</p>
 						<hr></hr>
-						<p>Fonte dei dati e dettagli tipo ESPG della mappa, EPSG:8859, WGS 84 / Equal Earth Asia-Pacific</p>
+						<p className="wip">NOTE: This is a space intended for describing the map or graph where it is not self-explanatory by title or where methodological detail or comments on the results obtained could be added.</p>
 					</div>
-					<div className="statement" style={{ width: "30vw", padding: "20px", paddingLeft: "50px" }}>
-						<p>NOTE: Se servissero dei commenti potrebbero andare in questo spazio, che riempio casualmente: Gender inequalities in education increase child marriage, exposition to violence and decrease wages</p>
+					<div className="statement" style={{ width: "30vw", padding: "20px", paddingLeft: "50px", fontSize:"0.45em !important" }}>
+						<p>DATA SOURCES (COUNTRIES):<br />Runfola, D. et al. (2020) geoBoundaries: A global database of political administrative boundaries. PLoS ONE 15(4): e0231866. <Link href="https://doi.org/10.1371/journal.pone.0231866">https://doi.org/10.1371/journal.pone.0231866</Link><br />EPSG:8859, WGS 84 / Equal Earth Asia-Pacific</p>
+						<p>DATA SOURCES (POPULATION):<br />Pacific Community (SPC) <Link href="https://sdd.spc.int/">Statistics for Development Division (SDD)</Link></p>
 					</div>
 
 				</div>

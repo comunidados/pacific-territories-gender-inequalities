@@ -3,6 +3,7 @@ import '../svg.css';
 import '../index.css';
 import Modal from "./modal";
 import injectSheet from "react-jss";
+import { Link } from '@mui/material';
 
 
 const BasemapChart = () => {
@@ -15,8 +16,16 @@ const BasemapChart = () => {
 
 				<div className="header" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
 					<div className="title" style={{ width: "70vw", padding: "50px", paddingTop: "80px" }}>
-						<h4>Qui ci potrebbe essere la narrativa, con corpo centrale come fosse un articolo. Esempio: However, the overall stagnation in the representation of female graduate students in science and engineering shrouds a more complicated picture underneath.</h4>
-						<h4>Some fields have seen a large increase in the representation of female graduate students. From 2003 to 2016, mathematics and statistics quickly reached and maintained sex parity.</h4>
+						<h4 className="wip">The idea is to analyse 4 indicators, <span className='education'>education attainment</span>, <span className='childmarriage'>child marriage</span>, <span className='violence'>gender-related violence</span> and <span className='wage'>wages</span>, correlated to population and gender.</h4>
+						<h4 className="wip">This space is used to gather the narrative underlying the dynamic framing, supplemented by data and information deduced from the reports. Random draft:</h4>
+						<h4 >65% of the child respondents do not attend school, compared to 35% of the child respondents who are still in school. The majority of the children out of school are between 15 and 17 years old. Most common reasons given by the children interviewed for leaving school were family problems (parental neglect, no family support), and financial difficulties (unable to pay school fees, had to leave to get a job).<sup><a href="#one">1</a></sup></h4>
+						<h4 >Marriage at a young age is common, which can put girls at high risk of physical abuse. The legal age of marriage is usually between 14-16 for girls and higher for boys. The practice of early marriage occurs in Fiji, Kiribati, Solomon Islands, Papua New Guinea and Vanuatu. Arranged or fixed marriages are common in Indo-Fijian communities, with young girls betrothed to marry as young as 15. A new form of marriage is the sale of daughters to foreigners in return for large cash payments.<sup><a href="#two">2</a></sup></h4>
+						<h4 className="wip">Then, a dashboard is arranged to present all the indicators, first displayed as an aggregate of the countries analysed, and then individually. We choose to use the figurative symbolism of flowers to visualise data, since flowers have a cultural significance inscribed in the Pacific Islands. We choose to employ hover interaction to get details of the visualised data.</h4>
+						<div style={{ width: "40vw" }}>
+							<hr></hr>
+							<p><sup><a href="#" id="one">1</a></sup> UN Women Pacific (2011). Ending Violence against Women and Girls: Literature Review and Annotated Bibliography. 2nd Edition</p>
+							<p><sup><a href="#" id="two">2</a></sup> ibid.</p>
+						</div>
 					</div>
 				</div>
 
@@ -114,9 +123,10 @@ const BasemapChart = () => {
 
 						<div>
 							<div className="title" style={{ width: "30vw", padding: "20px", fontWeight: "normal" }}>
-								<p style={{ fontWeight: "bold" }}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p>
+								<p style={{ fontWeight: "bold" }}>TOTAL POPULATION AND BY GENDER FROM 2017 TO 2022, COMBINED KIRIBATI, MARSHALL ISLANDS, NAURU, PALAU, TONGA, TUVALU AND VANUATU</p>
 								<hr></hr>
-								<p>Fonte dei dati e dettagli tipo ESPG della mappa, EPSG:8859, WGS 84 / Equal Earth Asia-Pacific</p>
+								<p>DATA SOURCES (POPULATION):<br />Pacific Community (SPC) <Link href="https://sdd.spc.int/">Statistics for Development Division (SDD)</Link></p>
+								<p className="wip">* Vanuatu's total population in the year 2022 is a projection and not a census. No source was found for gender data about Nauru in the years 2017 and 2018</p>
 							</div>
 
 						</div>
@@ -190,20 +200,23 @@ const BasemapChart = () => {
 	C-48.9,407.2-49.5,408.2-48.9,408.4L-48.9,408.4z"/>
 
 
-							<text transform="matrix(1 0 0 1 -94.5654 556.9102)" class="st3 st4">*C</text>
-							<text transform="matrix(1 0 0 1 -213.2109 403.8994)" class="st3 st4">*B</text>
-							<text transform="matrix(1 0 0 1 -86.3203 222.1221)" class="st3 st4">*A</text>
+							<text transform="matrix(1 0 0 1 -94.5654 556.9102)" class="st3 st4">***</text>
+							<text transform="matrix(1 0 0 1 -213.2109 403.8994)" class="st3 st4">**</text>
+							<text transform="matrix(1 0 0 1 -86.3203 222.1221)" class="st3 st4">*</text>
 
 						</svg>
 
 						<div>
 							<div className="title" style={{ width: "30vw", padding: "20px", fontWeight: "normal" }}>
-								<p style={{ fontWeight: "bold" }}>TITOLO DELLA CARTA / GRAFICO, ESEMPIO MAPPA DELL'OCEANIA</p>
+								<p style={{ fontWeight: "bold" }}><span className='education'>EDUCATION ATTAINMENT</span> BY GENDER FROM 2017 TO 2022, COMBINED KIRIBATI, MARSHALL ISLANDS, NAURU, PALAU, TONGA, TUVALU AND VANUATU</p>
 								<hr></hr>
-								<p>*A tiene in considerazione solo Tuvalu perchè ci sono dati solo al 2017<br />
-									*B tiene in considerazione la somma di Palau, Kiribati e Vanuati perchè ci sono dati solo al 2020<br />
-									*C tiene in considerazione la somma di Marshall Islands, Nauru e Tonga perchè ci sono dati solo al 2021</p>
-								<p>L'interazione sul petalo largo perche elementi troppo piccoli da triggerare</p>
+								<p>DATA SOURCES (POPULATION):<br />Pacific Community (SPC) <Link href="https://sdd.spc.int/">Statistics for Development Division (SDD)</Link></p>
+								<p className="wip">
+									* It does not refer to the sum of the total population of the analysed countries but only takes Tuvalu into account because it is the only country for which we have comprehensive data as of 2017<br />
+									** It does not refer to the sum of the total population of the analysed countries but only takes into account the sum of the population of Palau, Kiribati and Vanuati because they are the only countries for which there is comprehensive data as of 2020<br />
+									*** It does not refer to the sum of the total population of the analysed countries but only takes into account the sum of the population of Marshall Islands, Nauru eand  Tonga because they are the only countries for which there is comprehensive data as of 2021
+								</p>
+								<p className="wip">The interaction takes place on the wide petal because the triangles referring to the percentage of women and men who have reached upper secondary education level are too small to trigger</p>
 							</div>
 
 						</div>
