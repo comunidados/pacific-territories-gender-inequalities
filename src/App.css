@@ -104,11 +104,11 @@ p {
 }
 
 a {
-  color: #6e6d6d;
+  color: #6e6d6d !important;
 }
 
 a:visited {
-  color: #6e6d6d;
+  color: #6e6d6d !important;
 }
 
 .App {
@@ -161,7 +161,8 @@ svg {
 }
 
 button:hover {
-  border-width: 2px !important;
+  border-width: 1px !important;
+  border-color: #7F3F98 !important;
 }
 
 .wip {
@@ -173,6 +174,17 @@ button:hover {
   background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
+
+.wipred {
+  border: 3px solid #ee331255;
+
+  background-color: #ee331200;
+  opacity: 1;
+  background-image: linear-gradient(#ee331215 2px, transparent 2px), linear-gradient(90deg, #ee331215 2px, transparent 2px), linear-gradient(#ee331215 1px, transparent 1px), linear-gradient(90deg, #ee331215 1px, #ee331200 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
 
 .education {
   background-color: #abcea655;

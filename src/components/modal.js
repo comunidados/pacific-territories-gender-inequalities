@@ -7,8 +7,14 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
-import Kiribati from './kiribati';
-
+import Kiribati from './modal/kiribati';
+import Marshall from './modal/marshall';
+import Nauru from './modal/nauru';
+import Palau from './modal/palau';
+import Tonga from './modal/tonga';
+import Tavalu from './modal/tavalu';
+import Vanuatu from './modal/vanuatu';
+import { Link } from '@mui/material';
 
 
 export default function AlertDialog() {
@@ -112,7 +118,7 @@ export default function AlertDialog() {
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
-                            margin:"10px"
+                            margin: "10px"
                         },
                     }}
                 >
@@ -153,7 +159,7 @@ export default function AlertDialog() {
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
-                            margin:"10px"
+                            margin: "10px"
                         },
                     }}
                 >
@@ -163,7 +169,8 @@ export default function AlertDialog() {
                             style={{ maxWidth: "20px", maxHeight: "20px", border: "unset", float: "right", padding: "5px", cursor: "pointer", background: "transparent", fontWeight: "bold" }}
                         >X</button>
 
-                        <h1>MARSHALL ISLANDS</h1>
+                        <Marshall />
+
                     </div>
                 </Dialog>
             </React.Fragment>
@@ -192,7 +199,7 @@ export default function AlertDialog() {
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
-                            margin:"10px"
+                            margin: "10px"
                         },
                     }}
                 >
@@ -202,7 +209,7 @@ export default function AlertDialog() {
                             style={{ maxWidth: "20px", maxHeight: "20px", border: "unset", float: "right", padding: "5px", cursor: "pointer", background: "transparent", fontWeight: "bold" }}
                         >X</button>
 
-                        <h1>NAURU</h1>
+                        <Nauru />
                     </div>
                 </Dialog>
             </React.Fragment>
@@ -231,7 +238,7 @@ export default function AlertDialog() {
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
-                            margin:"10px"
+                            margin: "10px"
                         },
                     }}
                 >
@@ -241,7 +248,7 @@ export default function AlertDialog() {
                             style={{ maxWidth: "20px", maxHeight: "20px", border: "unset", float: "right", padding: "5px", cursor: "pointer", background: "transparent", fontWeight: "bold" }}
                         >X</button>
 
-                        <h1>PALAU</h1>
+                        <Palau />
                     </div>
                 </Dialog>
             </React.Fragment>
@@ -270,7 +277,7 @@ export default function AlertDialog() {
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
-                            margin:"10px"
+                            margin: "10px"
                         },
                     }}
                 >
@@ -280,7 +287,7 @@ export default function AlertDialog() {
                             style={{ maxWidth: "20px", maxHeight: "20px", border: "unset", float: "right", padding: "5px", cursor: "pointer", background: "transparent", fontWeight: "bold" }}
                         >X</button>
 
-                        <h1>TONGA</h1>
+                        <Tonga />
                     </div>
                 </Dialog>
             </React.Fragment>
@@ -310,7 +317,7 @@ export default function AlertDialog() {
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
-                            margin:"10px"
+                            margin: "10px"
                         },
                     }}
                 >
@@ -320,7 +327,7 @@ export default function AlertDialog() {
                             style={{ maxWidth: "20px", maxHeight: "20px", border: "unset", float: "right", padding: "5px", cursor: "pointer", background: "transparent", fontWeight: "bold" }}
                         >X</button>
 
-                        <h1>TUVALU</h1>
+                        <Tavalu />
                     </div>
                 </Dialog>
             </React.Fragment>
@@ -350,7 +357,7 @@ export default function AlertDialog() {
                             backgroundColor: "#f0ede6",
                             boxShadow: "none",
                             border: "1px solid #6e6d6d",
-                            margin:"10px"
+                            margin: "10px"
                         },
                     }}
                 >
@@ -360,7 +367,7 @@ export default function AlertDialog() {
                             style={{ maxWidth: "20px", maxHeight: "20px", border: "unset", float: "right", padding: "5px", cursor: "pointer", background: "transparent", fontWeight: "bold" }}
                         >X</button>
 
-                        <h1>TUVALU</h1>
+                        <Vanuatu />
                     </div>
                 </Dialog>
             </React.Fragment>
@@ -375,10 +382,18 @@ export default function AlertDialog() {
 
             <div className="header" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
                 <div className="title" style={{ width: "70vw", padding: "50px", paddingTop: "80px" }}>
-                    <h4>Qui ci potrebbe essere la narrativa, con corpo centrale come fosse un articolo. Esempio: However, the overall stagnation in the representation of female graduate students in science and engineering shrouds a more complicated picture underneath.</h4>
-                    <h4>Some fields have seen a large increase in the representation of female graduate students. From 2003 to 2016, mathematics and statistics quickly reached and maintained sex parity.</h4>
+                    <h4 className='wipred'>We agreed that the dashboard idea does not work. The available data, some of which are missing for specific countries and target years, do not allow for a consistent analysis considering the aggregation of Kiribati, Marshall Islands, Nauru, Palau, Tonga, Tuvalu and Vanuatu.The use of the mouse hover technique to gain insights can only be appreciated in the desktop version. The idea of using flower petals to visualise the data is impactful, but not intuitive and accessible.</h4>
+                    <h4 className='wip'>This space serves to describe how the dynamic stated at the beginning works.</h4>
                 </div>
-            </div></>
+            </div>
+            
+            <div className="header wip" style={{ display: "flex", justifyContent: "center", paddingTop: "5px" }}>
+                <div className="title" style={{ width: "70vw", padding: "50px", paddingTop: "80px" }}>
+                    <h4>Idea and prototyping:: <Link href="https://giuliatagliente.info/">Giulia Tagliente</Link> & <Link href="https://alessandromusetta.com">Alessandro Musetta</Link></h4>
+                </div>
+            </div>
+
+            </>
 
     );
 }

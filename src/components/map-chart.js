@@ -200,9 +200,9 @@ const BasemapChart = () => {
 	C-48.9,407.2-49.5,408.2-48.9,408.4L-48.9,408.4z"/>
 
 
-							<text transform="matrix(1 0 0 1 -94.5654 556.9102)" class="st3 st4">***</text>
-							<text transform="matrix(1 0 0 1 -213.2109 403.8994)" class="st3 st4">**</text>
-							<text transform="matrix(1 0 0 1 -86.3203 222.1221)" class="st3 st4">*</text>
+							<text transform="matrix(1 0 0 1 -94.5654 556.9102)" class="st3 st4 wip">***</text>
+							<text transform="matrix(1 0 0 1 -213.2109 403.8994)" class="st3 st4 wip">**</text>
+							<text transform="matrix(1 0 0 1 -86.3203 222.1221)" class="st3 st4 wip">*</text>
 
 						</svg>
 
